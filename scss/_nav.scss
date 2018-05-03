@@ -1,0 +1,38 @@
+.nav-background {
+  color: #f9f9f9;
+  height: 90px;
+  border-bottom: 1px solid #dadada;
+  nav{
+    .logo {
+      float: left;
+      margin-top: 22px;
+    }
+    .menu {
+      float: right;
+      margin-top: 37px;
+      ul {
+        display: inline-block;
+        li {
+          display: inline-block;
+          a {
+            text-decoration: none;
+            color: $title-color;
+            text-transform: uppercase;
+            padding: 12px;
+            font-weight: 700;
+            font-size: 14px;
+            border-radius: 6px;
+          }
+        }
+        a:hover {
+          color: white;
+          background-color: $green;
+          transition: all 0.5s;
+        }
+       .magnifier:hover {
+         background: none;
+       }
+      }
+    }
+  }
+}

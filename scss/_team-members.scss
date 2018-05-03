@@ -1,0 +1,124 @@
+.team-members {
+  width: 100%;
+  background-color: #f9f9f9;
+  height: 615px;
+  .paragraph {
+    padding-top: 70px;
+    margin-top: 0;
+    .short-line {
+      width: 24.6%;
+    }
+    .arrow {
+      height: 25px;
+      width: 25px;
+      background-color: $title-color;
+      display: inline-block;
+      margin-right: 80px;
+      border-radius: 6px;
+      img {
+        margin-right: 2px;
+      }
+    }
+    .ml {
+      margin-left: 80px;
+      margin-right: 0;
+      img {
+        margin-left: 2px;
+      }
+    }
+    .arrow:hover {
+      background-color: $green;
+      transition: all .3s;
+    }
+  }
+  .team {
+    margin-top: 40px;
+    .one-person {
+      display: inline-block;
+      width: 23%;
+      border: 1px solid #e5e5e5;
+      border-radius: 5px;
+      position: relative;
+      margin-right: 15px;
+      input {
+        background-color: $green;
+        border: none;
+        text-transform: uppercase;
+        padding: 13px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-weight: 700;
+        color: $white;
+        margin-top: 210px;
+        z-index: 9;
+      }
+      input:hover {
+        background-color: $title-color;
+        transition: all .3s;
+      }
+      .block {
+        height: 230px;
+        background-color: $beige;
+        margin-right: 20px;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+        display: block;
+        .hidden-network {
+          position: absolute;
+          height: 230px;
+          width: 100%;
+          border-radius: 5px 5px 0 0;
+          top: 0;
+          left: 0;
+          display: none;
+          background-color: $green;
+          ul {
+            margin-top: 100px;
+            li {
+              display: inline-block;
+              .network {
+                position: relative;
+                height: 24px;
+                width: 24px;
+                border-radius: 3px;
+                background-color: $title-color;
+                transform: rotate(45deg);
+                z-index: 1;
+                img {
+                  transform: rotate(-45deg);
+                  position: absolute;
+                  top: 3px;
+                  left: 0;
+                  right: 0;
+                  bottom: 0;
+                  margin: 0 auto;
+                }
+              }
+              .network:hover {
+                background-color: $grey;
+                z-index: 9;
+              }
+            }
+          }
+        }
+      }
+      .more-info {
+        line-height: 20px;
+        margin-top: 32px;
+        h4 {
+          font-weight: 600;
+          font-size: 14px;
+          color: #6f6f6f;
+          margin-bottom: 10px;
+        }
+        span {
+          margin-right: 13px;
+        }
+        p {
+          font-size: 14px;
+          color: $green;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.amazing-features {
+  background-color: $title-color;
+  width: 100%;
+  height: 540px;
+  margin-top: 95px;
+  .paragraph {
+    margin-top: 45px;
+    p {
+      color: $white;
+    }
+  }
+  .describe {
+    color: #5f5f5f;
+  }
+  .information {
+    margin-top: 36px;
+    .left-blocks {
+      width: 35%;
+      float: left;
+      .one-left-block {
+        height: 96px;
+        h4 {
+          color: $white;
+        }
+        h4, p {
+          text-align: left;
+          margin-left: 55px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        img {
+          float: left;
+        }
+      }
+    }
+    img {
+      float: right;
+    }
+  }
+}

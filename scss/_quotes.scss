@@ -1,0 +1,38 @@
+.quotes {
+   height: 270px;
+   background-color: $green;
+   .sliders {
+     position: relative;
+     .slick-prev {
+       top: 100%;
+       left: 47%;
+     }
+     .slick-next {
+       left: 50%;
+     }
+     .slide {
+       .qualification {
+         border-radius: 5px;
+         padding: 13px;
+         text-align: center;
+         color: $green;
+         background-color: $white;
+         width: 240px;
+         text-transform: uppercase;
+         font-weight: 700;
+         margin: 45px auto 0;
+         span {
+           font-size: 11px;
+           text-transform: capitalize;
+           font-style: italic;
+         }
+       }
+       p {
+         line-height: 25px;
+         color: $white;
+         font-size: 17px;
+         margin-top: 25px;
+       }
+     }
+   }
+ }

@@ -1,0 +1,56 @@
+.what-we-offer {
+  margin-top: 65px;
+  height: 475px;
+  width: 100%;
+  text-align: center;
+  background-color: #f9f9f9;
+  .three-blocks {
+    margin-top: 40px;
+    .one-block {
+      width: 33%;
+      display: inline-block;
+      .img-background {
+        height: 86px;
+        width: 85px;
+        background-color: $title-color;
+        border-radius: 100%;
+        position: relative;
+        margin: 0 auto;
+        img {
+          position: absolute;
+          margin: auto;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+        }
+      }
+      .img-background:hover {
+        background-color: $green;
+        transition: all 0.3s;
+      }
+      p {
+        font-size: 13px;
+        margin-top: 15px;
+        line-height: 20px;
+        font-weight: 500;
+      }
+      button {
+        background-color: #f9f9f9;
+        border: 1px solid #e7e7e7;
+        padding: 8px;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 12px;
+        color: $beige;
+        font-size: 11px;
+        border-radius: 6px;
+      }
+      button:hover {
+        background-color: $green;
+        color: white;
+        transition: all 0.3s;
+      }
+    }
+  }
+}

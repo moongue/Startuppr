@@ -1,0 +1,48 @@
+.facts {
+  background-color: $title-color;
+  margin-top: 95px;
+  width: 100%;
+  height: 350px;
+  .paragraph {
+    color: $white;
+    margin-top: 60px;
+  }
+  .describe {
+    color: $describe-color;
+  }
+  .one-facts-block {
+    margin-top: 40px;
+    width: 24%;
+    display: inline-block;
+    a{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $grey;
+      p {
+      color: $white;
+      font-size: 70px;
+
+      img {
+        margin: 0 15px 15px ;
+        position: relative;
+      }
+    }
+      img {
+        margin-top: 15px;
+      }
+      h5 {
+        margin-top: 13px;
+        font-size: 14px;
+        color: $grey;
+        font-weight: 700;
+      }
+    }
+    a:hover p img {
+      background: transparent;
+      visibility: hidden;
+    }
+    a:hover p .hover-shape{
+      background: url("../images/hovered-shape.png") no-repeat 50% 50%;
+    }
+  }
+}

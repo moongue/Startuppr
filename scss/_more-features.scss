@@ -1,0 +1,34 @@
+.more-features {
+  background-color: #f9f9f9;
+  .all-blocks {
+    margin-top: 70px;
+    width: 100%;
+    .more-features-one-block {
+      width: 33%;
+      display: inline-block;
+      margin-top: 50px;
+      img {
+        float: left;
+      }
+      .text {
+        text-align: left;
+        margin-left: 60px;
+        h4 {
+          margin-top: 0;
+          font-size: 15px;
+        }
+        h6 {
+          font-size: 11px;
+          color: #b2b2b2;
+          margin-top: 10px;
+        }
+        p {
+          margin-top: 15px;
+          line-height: 20px;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

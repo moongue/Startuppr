@@ -1,0 +1,86 @@
+*{
+  font-family: 'Raleway', sans-serif;
+}
+body {
+   font-family: 'Raleway', sans-serif;
+    color: $beige;
+  button, input {
+    outline: none;
+  }
+
+  .slick-prev, .slick-next{
+    position: absolute;
+    font-size: 0;
+    height: 26px;
+    width: 26px;
+    border: none;
+    background-color: $white;
+  }
+  .slick-prev {
+    background: url("../images/arrow-left.png")no-repeat 50% 50%;
+  }
+  .slick-next {
+    background: url("../images/arrow-right.png")no-repeat 50% 50%;
+  }
+  .paragraph {
+    margin-top: 43px;
+    font-size: 23px;
+    font-weight: 700;
+    color: $brown;
+    text-align: center;
+    text-transform: uppercase;
+    span {
+      color: $green;
+    }
+    .short-line {
+      width: 34%;
+      margin-bottom: 5px;
+      height: 5px;
+    }
+    .square {
+      padding: 0 15px;
+    }
+    .second-square {
+      transform: scale(-1, -1);
+    }
+  }
+   .wrapper {
+     width: 1024px;
+     margin: 0 auto;
+   }
+  .describe {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: center;
+  }
+  .icon-top {
+    margin: -23px auto 0;
+  }
+  h4 {
+    font-size: 16px;
+    color: $grey;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 25px;
+  }
+  .clear-fix {
+    clear: both;
+  }
+  input:focus::-webkit-input-placeholder {
+    text-indent: 400px;
+    transition: text-indent 0.7s ease;
+  }
+  input:focus::-moz-placeholder {
+    text-indent: 400px;
+    transition: text-indent 0.7s ease;
+  }
+  input:focus:-moz-placeholder {
+    text-indent: 400px;
+    transition: text-indent 0.7s ease;
+  }
+  input:focus:-ms-input-placeholder {
+    text-indent: 400px;
+    transition: text-indent 0.7s ease;
+  }
+ }
